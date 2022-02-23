@@ -7,13 +7,38 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyNewComponentComponent implements OnInit {
 
-  property:any ={
+  property:Array <any> =[{
     "id":1,
     "type":"test",
     "price":50
 
-  }
+  },{
+    "id":1,
+    "type":"test",
+    "price":50
 
+  },{
+    "id":1,
+    "type":"test",
+    "price":50
+
+  },{
+    "id":1,
+    "type":"test",
+    "price":50
+
+  },{
+    "id":1,
+    "type":"test",
+    "price":50
+
+  },{
+    "id":1,
+    "type":"test",
+    "price":50
+
+  },
+  ]
   constructor() { }
 
   ngOnInit(): void {
