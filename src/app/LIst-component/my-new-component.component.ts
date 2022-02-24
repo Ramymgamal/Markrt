@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyNewComponentComponent implements OnInit {
 
-  property:Array <any> =[{
+  properties:Array <any> =[{
     "id":1,
     "type":"test",
     "price":50

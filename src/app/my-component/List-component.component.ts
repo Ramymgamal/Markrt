@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-List-component',
@@ -6,11 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./List-component.component.css']
 })
 export class ListComponentComponent  {
-
-  property : any={
-    "id":1,
-    "name" : "زجاجة",
-    "price" : 50
-  }
+@Input() proprety:any
 
 }
