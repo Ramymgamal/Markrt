@@ -11,3 +11,11 @@
   transition-timing-function: ease-out;
 
 }
+
+.img-warpper{
+  overflow: hidden;
+}
+.card{
+  width: 22rem;
+
+}
