@@ -12,10 +12,30 @@
 
 }
 
-.img-warpper{
+.card-img-warpper{
   overflow: hidden;
+  position: relative;
 }
 .card{
   width: 22rem;
 
+
+}
+
+.member-icons{
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.card-img-warpper:hover .member-icons{
+  bottom: 0;
+}
+
+.animate{
+  transition: all 0.5s ease-in-out;
 }
