@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { MyNewComponentComponent } from './LIst-component/my-new-component.component';
 import { ListComponentComponent } from './my-component/List-component.component';
 import { NavBarComponentComponent } from './NavBar-component/NavBar-component.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+//import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
    ],
   imports: [
     BrowserModule,
-    NgbModule
+  //  NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
