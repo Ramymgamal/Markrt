@@ -1,5 +1,6 @@
-import { HttpClient } from '@angular/common/http';
+
 import { Component, OnInit } from '@angular/core';
+import { HousingService } from '../Service/Housing.service';
 
 @Component({
   selector: 'app-my-new-component',
@@ -11,12 +12,12 @@ export class MyNewComponentComponent implements OnInit {
 //declartion array of any
   properties:any;
 
-  constructor(private http:HttpClient) {
+  constructor(private housing:HousingService) {
 
    }
 
   ngOnInit(): void {
-    this.http.get('data/property.json').subscribe
+    this.housing.GetAllProprties().subscribe
     (data=>{
       this.properties=data;
       console.log(data);

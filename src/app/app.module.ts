@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { MyNewComponentComponent } from './LIst-component/my-new-component.component';
 import { ListComponentComponent } from './my-component/List-component.component';
 import { NavBarComponentComponent } from './NavBar-component/NavBar-component.component';
+import { HousingService } from './Service/Housing.service';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { NavBarComponentComponent } from './NavBar-component/NavBar-component.co
     BrowserModule,
     HttpClientModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [HousingService],
+  bootstrap: [AppComponent],
+
+
 })
 export class AppModule { }
